@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\RituGupta\\Documents\\GitHub\\WebView2\\VSIXProject_WebView2_10674\\VSIXProject2\\VSIXProject2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\RituGupta\\Documents\\GitHub\\WebView2\\VSIXProject_WebView2_10674\\VSIXProject2\\VSIXProject2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\RituGupta\\Documents\\GitHub\\WebView2\\VSIXProject_WebView2_10674\\VSIXProject2\\VSIXProject2.csproj",
+        "projectName": "VSIXProject2",
+        "projectPath": "C:\\Users\\RituGupta\\Documents\\GitHub\\WebView2\\VSIXProject_WebView2_10674\\VSIXProject2\\VSIXProject2.csproj",
+        "packagesPath": "C:\\Users\\RituGupta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RituGupta\\Documents\\GitHub\\WebView2\\VSIXProject_WebView2_10674\\VSIXProject2\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\RituGupta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.VSSDK.BuildTools": {
+              "target": "Package",
+              "version": "[16.7.3069, )"
+            },
+            "Microsoft.VisualStudio.SDK": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[16.0.206, )"
+            },
+            "Microsoft.Web.WebView2": {
+              "target": "Package",
+              "version": "[1.0.674-prerelease, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
